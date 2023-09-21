@@ -2,10 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    screens: {
-      "2xl": "1400px",
-    },
+    /*screens: {
+      "2xl": { min: "1377px", max: "1728px" },
+    },*/
     colors: {
+      bg_green200: "#C2EFD4",
       green200: "#10FF70",
       green400: "#6BC785",
       green600: "#267D49",
@@ -17,9 +18,12 @@ module.exports = {
       yellow: "#F5D426",
     },
     extend: {
+      screens: {
+        "2xl": { min: "1377px" },
+      },
       fontFamily: {
         elephant: "Elephant, sans-serif",
-        poppins: "Poppins', sans-serif",
+        poppins: "Poppins, sans-serif",
         rufina: "Rufina, sans-serif",
         roboto_slab: "Roboto Slab, sans-serif",
       },
