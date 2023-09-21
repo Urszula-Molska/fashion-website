@@ -27,7 +27,10 @@ module.exports = {
         rufina: "Rufina, sans-serif",
         roboto_slab: "Roboto Slab, sans-serif",
       },
+      dropShadow: {
+        buttonShadow: "6px 33px 59px 0px rgba(0, 0, 0, 0.30)",
+      },
     },
+    plugins: [],
   },
-  plugins: [],
 };
