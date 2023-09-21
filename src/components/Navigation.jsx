@@ -10,11 +10,11 @@ export const Navigation = () => {
           Rivo
         </div>
         <nav>
-          <ul className="flex font-poppins text-[22px] text-green800 ">
+          <ul className="flex font-poppins text-[22px] text-green800 font-medium ">
             <li className="mr-[57px]">HOME</li>
             <li className="mr-[52px]">SHOP</li>
             <li className="mr-[47px]">FEATURES</li>
-            <li className="">CONTACT</li>
+            <li>CONTACT</li>
           </ul>
         </nav>
         <div className="flex items-center">
@@ -23,7 +23,7 @@ export const Navigation = () => {
               <use href={`${sprite}#icon-suitcase`}></use>
             </svg>
           </div>
-          <button className="font-poppins text-[20px] text-green800 text-center border-green800  w-[142px] h-[52px] border-2 rounded-[3px] ">
+          <button className="font-poppins text-[20px] text-green800 text-center border-green800  w-[142px] h-[52px] border-2 rounded-[3px] font-medium ">
             LOGIN
           </button>
         </div>
