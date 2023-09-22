@@ -13,8 +13,8 @@ module.exports = {
       green800: "#224F34",
       green_dots: "#267144",
       white: "#FFFFFF",
-      gray200: "#373737",
-      gray400: "#454545",
+      gray400: "#373737",
+      gray200: "#454545",
       yellow: "#F5D426",
     },
     extend: {

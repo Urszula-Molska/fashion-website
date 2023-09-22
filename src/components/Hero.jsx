@@ -4,7 +4,7 @@ import sprite from "../assets/sprite.svg";
 const Hero = () => {
   return (
     <>
-      <div className="flex pb-[166px]">
+      <div className="flex pb-[166px] mx-auto 2xl:w-[1377px] w-full">
         <div className="flex flex-col">
           <div className="w-[649px] mb-[27px]">
             <h1 className="text-green800 font-rufina text-[86px] font-bold leading-tight">

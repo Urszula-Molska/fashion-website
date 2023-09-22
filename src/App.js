@@ -4,15 +4,20 @@ import { lazy, Suspense } from "react";
 const Navigation = lazy(() => import("./components/Navigation.jsx"));
 
 const Hero = lazy(() => import("./components/Hero.jsx"));
+const BestSelling = lazy(() => import("./components/BestSelling.jsx"));
 
 function App() {
   return (
-    <div className="flex justify-center w-full bg-bg_green200 pr-[175px] pl-[174px]">
-      <div className="mx-auto 2xl:w-[1377px] w-full">
-        <Navigation />
-        <Hero />
+    <>
+      <div className="bg-bg_green200">
+        <div className="flex flex-col justify-center w-full pr-[175px] pl-[174px]">
+          <Navigation />
+          <Hero />
+        </div>
       </div>
-    </div>
+
+      <BestSelling />
+    </>
   );
 }
 
