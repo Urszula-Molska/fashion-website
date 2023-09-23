@@ -20,6 +20,7 @@ module.exports = {
     extend: {
       screens: {
         "2xl": { min: "1377px" },
+        tablet: { max: "1376px" },
       },
       fontFamily: {
         elephant: "Elephant, sans-serif",

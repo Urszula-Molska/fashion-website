@@ -4,29 +4,29 @@ import sprite from "../assets/sprite.svg";
 const Hero = () => {
   return (
     <>
-      <div className="flex pb-[166px] mx-auto 2xl:w-[1377px] w-full">
-        <div className="flex flex-col">
+      <div className="flex flex-wrap justify-center 2xl:flex-nowrap 2xl: pb-[166px] mx-auto 2xl:w-[1377px] w-full">
+        <div className="flex flex-col tablet:relative">
           <div className="w-[649px] mb-[27px]">
             <h1 className="text-green800 font-rufina text-[86px] font-bold leading-tight">
               Discover and Find Your Own Fashion!
             </h1>
           </div>
-          <div className="w-[565px] ">
+          <div className="w-[565px]  ">
             <p className="text-green600 font-poppins font-medium text-2xl leading-[220%]">
               Explore our curated collection of stylish clothing and accessories
               tailored to your unique taste.
             </p>
           </div>
           <button
-            className=" mt-[54px] blockfont-poppins text-[20px] text-white font-medium text-center w-[258px] h-[74px] bg-green800 rounded-[3px] drop-shadow-buttonShadow;
- "
+            className="tablet:absolute tablet:z-20 tablet:top-[650px] tablet:left-[-30px]  cursor-pointer mt-[54px] blockfont-poppins text-[20px] text-white font-medium text-center w-[258px] h-[74px] bg-green800 rounded-[3px] 
+            drop-shadow-buttonShadow"
           >
             EXPLORE NOW
           </button>
         </div>
         <div
-          className="relative w-[570px] h-[717px] shrink-0 bg-green400 rounded-tl-[141px] rounded-tr-[45px] rounded-bl-[82px] 
-        rounded-br-[150px] ml-[160px]"
+          className=" relative w-[570px] h-[717px] shrink-0 bg-green400 rounded-tl-[141px] rounded-tr-[45px] rounded-bl-[82px] 
+        rounded-br-[150px] 2xl:ml-[160px]"
         >
           <img
             src={image}

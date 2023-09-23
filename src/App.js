@@ -1,4 +1,5 @@
 import { lazy, Suspense } from "react";
+import Loader from "./components/Loader/Loader.jsx";
 //import logo from "./logo.svg";
 
 const Navigation = lazy(() => import("./components/Navigation.jsx"));
@@ -9,14 +10,17 @@ const BestSelling = lazy(() => import("./components/BestSelling.jsx"));
 function App() {
   return (
     <>
-      <div className="bg-bg_green200">
-        <div className="flex flex-col justify-center w-full pr-[175px] pl-[174px]">
-          <Navigation />
-          <Hero />
+      <Suspense fallback={<Loader />}>
+        <div className="bg-bg_green200">
+          <div className="flex flex-col justify-center items-center w-full px-8 2xl:pr-[175px] 2xl:pl-[174px]">
+            <Navigation />
+            <Hero />
+          </div>
         </div>
-      </div>
-
-      <BestSelling />
+        <div className="flex justify-center items-center w-full px-8 2xl:pr-[175px] 2xl:pl-[174px]">
+          <BestSelling />
+        </div>
+      </Suspense>
     </>
   );
 }

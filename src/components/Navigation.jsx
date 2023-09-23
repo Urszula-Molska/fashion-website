@@ -13,19 +13,19 @@ export const Navigation = () => {
             </div>
             <nav>
               <ul className="flex font-poppins text-[22px] text-green800 font-medium ">
-                <li className="mr-[57px]">HOME</li>
-                <li className="mr-[52px]">SHOP</li>
-                <li className="mr-[47px]">FEATURES</li>
-                <li>CONTACT</li>
+                <li className="mr-[57px] cursor-pointer">HOME</li>
+                <li className="mr-[52px] cursor-pointer">SHOP</li>
+                <li className="mr-[47px] cursor-pointer">FEATURES</li>
+                <li className="cursor-pointer">CONTACT</li>
               </ul>
             </nav>
             <div className="flex items-center">
               <div className="mr-[57px] h-[32px] w-[32px] ">
-                <svg className="w-full h-full pt-[3px]">
+                <svg className="w-full h-full pt-[3px] cursor-pointer">
                   <use href={`${sprite}#icon-suitcase`}></use>
                 </svg>
               </div>
-              <button className="font-poppins text-[20px] text-green800 text-center border-green800  w-[142px] h-[52px] border-2 rounded-[3px] font-medium ">
+              <button className="cursor-pointer font-poppins text-[20px] text-green800 text-center border-green800  w-[142px] h-[52px] border-2 rounded-[3px] font-medium ">
                 LOGIN
               </button>
             </div>
