@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fashion-website/static/css/main.0a4d6334.css",
+    "main.js": "/fashion-website/static/js/main.2c36482c.js",
+    "static/js/957.226b6494.chunk.js": "/fashion-website/static/js/957.226b6494.chunk.js",
+    "static/js/507.b511e667.chunk.js": "/fashion-website/static/js/507.b511e667.chunk.js",
+    "static/js/803.11ee0207.chunk.js": "/fashion-website/static/js/803.11ee0207.chunk.js",
+    "static/js/787.24183f9c.chunk.js": "/fashion-website/static/js/787.24183f9c.chunk.js",
+    "static/js/297.14e0db5e.chunk.js": "/fashion-website/static/js/297.14e0db5e.chunk.js",
+    "static/media/pexels-dima-valkov.png": "/fashion-website/static/media/pexels-dima-valkov.da7cb903a7d385df5e51.png",
+    "static/media/sprite.svg": "/fashion-website/static/media/sprite.5a3da38ed52a210f42ad856571e8edba.svg",
+    "index.html": "/fashion-website/index.html",
+    "main.0a4d6334.css.map": "/fashion-website/static/css/main.0a4d6334.css.map",
+    "main.2c36482c.js.map": "/fashion-website/static/js/main.2c36482c.js.map",
+    "957.226b6494.chunk.js.map": "/fashion-website/static/js/957.226b6494.chunk.js.map",
+    "507.b511e667.chunk.js.map": "/fashion-website/static/js/507.b511e667.chunk.js.map",
+    "803.11ee0207.chunk.js.map": "/fashion-website/static/js/803.11ee0207.chunk.js.map",
+    "787.24183f9c.chunk.js.map": "/fashion-website/static/js/787.24183f9c.chunk.js.map",
+    "297.14e0db5e.chunk.js.map": "/fashion-website/static/js/297.14e0db5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a4d6334.css",
+    "static/js/main.2c36482c.js"
+  ]
+}
