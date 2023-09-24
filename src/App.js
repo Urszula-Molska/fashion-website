@@ -12,12 +12,12 @@ function App() {
     <>
       <Suspense fallback={<Loader />}>
         <div className="bg-bg_green200">
-          <div className="flex flex-col justify-center items-center w-full px-8 2xl:pr-[175px] 2xl:pl-[174px]">
+          <div className="flex flex-col justify-center 2xl:items-center tab:items-center w-full px-[10px] tab:px-6 2xl:pr-[175px] 2xl:pl-[174px]">
             <Navigation />
             <Hero />
           </div>
         </div>
-        <div className="flex justify-center items-center w-full px-8 2xl:pr-[175px] 2xl:pl-[174px]">
+        <div className="flex justify-center items-center w-full px-[10px] 2xl:pr-[175px] 2xl:pl-[174px]">
           <BestSelling />
         </div>
       </Suspense>

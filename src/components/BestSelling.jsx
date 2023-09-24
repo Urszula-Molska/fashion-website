@@ -32,25 +32,25 @@ const BestSelling = () => {
 
   return (
     <>
-      <div className="bg-white pt-[114px] flex flex-col  justify-center items-center pb-[99px]">
-        <h2 className="font-roboto_slab font-medium text-[64px] text-green800 text-center">
+      <div className="bg-white pt-20  w-full px-[10px] 2xl:pt-[114px] flex flex-col  justify-center items-center pb-[99px] ">
+        <h2 className="font-roboto_slab font-medium text-[36px] tab&2xl:text-[64px] text-green800 text-center">
           Best selling
         </h2>
-        <p className="font-poppins font-medium text-[22px] text-green800 text-center pt-[37px] pb-20">
+        <p className="font-poppins font-medium text-[22px] text-green800 text-center pt-[37px] pb-10 2xl:pb-20">
           Get in on the trend with our curated selection of best-selling styles.
         </p>
         <ul className="flex flex-wrap gap-[43px] mb-20 justify-center">
           {pictures.map((picture) => (
             <li
               key={picture.id}
-              className="w-[430px] flex items-center flex-col"
+              className="w-full max-w-[430px] flex items-center flex-col"
             >
-              <div className="w-[430px] h-[566px] mb-[51px]">
+              <div className="tab&2xl:w-[430px] tab&2xl:h-[566px] mb-3 tab&2xl:mb-[51px] w-full">
                 {isLoading === true ? (
                   <Loader />
                 ) : (
                   <img
-                    className="w-[430px] h-[566px] object-contain block bg-white"
+                    className="tab&2xl:w-[430px] tab&2xl:h-[566px] object-contain block bg-white w-full"
                     src={picture.image}
                     alt={picture.title}
                   ></img>
