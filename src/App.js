@@ -1,9 +1,7 @@
 import { lazy, Suspense } from "react";
 import Loader from "./components/Loader/Loader.jsx";
-//import logo from "./logo.svg";
 
 const Navigation = lazy(() => import("./components/Navigation.jsx"));
-
 const Hero = lazy(() => import("./components/Hero.jsx"));
 const BestSelling = lazy(() => import("./components/BestSelling.jsx"));
 

@@ -1,6 +1,5 @@
 import image from "../assets/pexels-dima-valkov.png";
 import sprite from "../assets/sprite.svg";
-// <div className="mx-auto 2xl:w-[1377px] w-full">
 const Hero = () => {
   return (
     <>
@@ -26,21 +25,27 @@ const Hero = () => {
           </button>
         </div>
         <div
-          className=" relative  mob:w-full tab&2xl:w-[570px]  tab&2xl:h-[717px] shrink-0 bg-green400 rounded-tl-[141px] rounded-tr-[45px] rounded-bl-[82px] 
-        rounded-br-[150px] 2xl:ml-[160px] mob:max-w-[570px]"
+          className=" relative  tab&2xl:w-[570px]  tab&2xl:h-[717px] shrink-0 bg-green400 rounded-tl-[141px] rounded-tr-[45px] rounded-bl-[82px] 
+        rounded-br-[150px] 2xl:ml-[160px] mob:max-w-[570px] w-full"
         >
           <img
             src={image}
             alt="lady in a green jacket"
-            className=" shrink-0 tab&2xl:w-[570px] tab&2xl:h-[717px]  mob:w-full"
+            className=" shrink-0 tab&2xl:w-[570px] tab&2xl:h-[717px] mob:max-w-full "
           ></img>
-          <div className="absolute right-3 top-[155px] z-10">
-            <svg className="h-[110px] w-[119px]">
+          <div
+            className="absolute right-0 top-[155px] z-10 w-1/5 h-auto max-h-[110px] max-w-[119px]"
+            style={{ right: "3%", top: "22%" }}
+          >
+            <svg className="w-full ">
               <use href={`${sprite}#icon-dots`}></use>
             </svg>
           </div>
-          <div className="absolute left-6 bottom-[83px] z-10">
-            <svg className=" h-[110px] w-[119px]">
+          <div
+            className="absolute  z-10 w-1/5 h-auto mob:max-w-full max-h-[110px] max-w-[119px]"
+            style={{ left: "4%", bottom: "12%" }}
+          >
+            <svg className="w-full">
               <use href={`${sprite}#icon-dots`}></use>
             </svg>
           </div>
