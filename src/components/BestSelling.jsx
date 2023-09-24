@@ -27,7 +27,6 @@ const BestSelling = () => {
 
   useEffect(() => {
     fetchPictures(limit);
-    console.log(limit);
   }, [limit]);
 
   return (
