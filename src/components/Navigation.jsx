@@ -43,7 +43,7 @@ export const Navigation = () => {
               <div className="block tab&2xl:hidden cursor-pointer mt-2">
                 <button
                   id="mobile-menu-button"
-                  class="group peer"
+                  className="group peer"
                   onClick={() => toggleBtn()}
                 >
                   <div className="group-open:rotate-45 group-open:top-2 relative bg-green800 rounded-full w-8 h-1 transition-all"></div>
