@@ -73,7 +73,7 @@ const BestSelling = () => {
         {limit < 21 && (
           <button
             id="fetch"
-            onClick={() => setLimit(limit + 3)}
+            onClick={() => setLimit(limit + 6)}
             className="flex items-center pl-[55px] relative w-[224px] h-[65px] border-[2px] rounded-[3px] border-green800 font-poppins text-[22px] font-medium text-green800"
           >
             See all
