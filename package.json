@@ -2,6 +2,7 @@
   "name": "fashion-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Urszula-Molska/fashion-website",
   "dependencies": {
     "@babel/plugin-syntax-class-properties": "^7.12.13",
     "@csstools/postcss-is-pseudo-class": "^4.0.2",
