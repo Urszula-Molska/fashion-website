@@ -8,9 +8,6 @@ module.exports = {
       tab: { min: "768px", max: "1727px" },
       mob: { min: "200px", max: "767px" },
     },
-    /*screens: {
-      "2xl": { min: "1377px", max: "1728px" },
-    },*/
     colors: {
       bg_green200: "#C2EFD4",
       green200: "#10FF70",
